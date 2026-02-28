@@ -1,7 +1,0 @@
-{
-  "name": "static-html-site",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "echo 'Static HTML site - no build needed' && exit 0"
-  }
-}
