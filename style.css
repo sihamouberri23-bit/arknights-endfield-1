@@ -238,4 +238,28 @@ h1 {
         width: 1.75rem;
         height: 1.75rem;
     }
+    .urgency{
+margin-top:10px;
+font-size:14px;
+color:#ffb347;
+text-align:center;
+}
+  .players{
+margin-top:12px;
+font-size:13px;
+color:#ffaa33;
+text-align:center;
+} 
+    .countdown{
+margin-top:14px;
+font-size:14px;
+color:#ffffffcc;
+text-align:center;
+letter-spacing:0.5px;
+}
+
+#timer{
+color:#ffb347;
+font-weight:700;
+}
 }
