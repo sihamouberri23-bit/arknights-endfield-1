@@ -19,7 +19,7 @@ body {
 .background-image {
     position: absolute;
     inset: 0;
-    background-image: url('AE.jpg');
+    background-image: url('AE.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
