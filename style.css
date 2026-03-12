@@ -90,7 +90,7 @@ h1 {
 color:#ffb347;
 font-weight:900;
 text-shadow:0 0 18px rgba(255,170,0,0.7);
-font-size:1.3em;
+font-size:1.8em;
 }
 
 .exclusive{
@@ -98,12 +98,11 @@ color:#ff7a18;
 font-weight:700;
 text-shadow:0 0 10px rgba(255,120,0,0.6);
 }
-
 .title-line{
+display:block;
 color:#ffffff;
 text-shadow:0 4px 12px rgba(0,0,0,0.8);
 }
-
 .number-135{
 background:linear-gradient(to right,#ffb347,#ffcc33);
 -webkit-background-clip:text;
