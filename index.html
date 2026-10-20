@@ -1,47 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arknights Endfield - Claim Up to 135 Launch Rewards</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Arknights: Endfield | Play Free on PC</title>
+  <meta name="description" content="Arknights: Endfield. Explore Talos-II, build your industry and lead the Endministrator's squad. Play free on PC.">
+  <meta name="theme-color" content="#0b0c0e">
+  <meta property="og:title" content="Arknights: Endfield">
+  <meta property="og:description" content="Explore Talos-II. Build. Fight. Survive. Play free on PC.">
+  <meta property="og:image" content="assets/poster.jpg">
+  <link rel="preload" as="image" href="assets/poster.jpg">
+  <link rel="preload" as="image" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="background-image"></div>
-        <div class="overlay"></div>
-        <div class="vignette-overlay"></div>
+  <div class="bg" aria-hidden="true">
+    <video class="bg__video" autoplay muted loop playsinline preload="auto" poster="assets/poster.jpg">
+      <source src="assets/bg.mp4" type="video/mp4">
+    </video>
+    <div class="bg__shade"></div>
+    <div class="bg__grid"></div>
+    <div class="bg__scan"></div>
+  </div>
 
-        <div class="content">
-            <div class="content-blur-backing"></div>
-
-            <div class="main-content">
-            <h1>
-       <span class="title-line">Claim Up to</span>
-       <span class="highlight">135</span>
-       <span class="title-line"><span class="exclusive">Exclusive</span> Launch Rewards</span>
-            </h1>
-
-                <p class="subtitle">
-                    Enter Talos-II in a real-time tactical RPG experience. High-quality graphics. Free to play.
-                </p>
-
-                <button id="downloadBtn" class="cta-button">
-                    <span class="button-content">
-                        <svg class="download-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                            <polyline points="7 10 12 15 17 10"></polyline>
-                            <line x1="12" y1="15" x2="12" y2="3"></line>
-                        </svg>
-                    Claim Rewards Now                
-                    </span>
-                </button>
-                 <div class="countdown">
-                <p class="pc-version">PC Version Available</p>
-            </div>
-        </div>
+  <header class="hud-top">
+    <div class="hud-logo" role="img" aria-label="Arknights: Endfield">
+      <span class="hud-logo__top" aria-hidden="true"><i>A</i><i>R</i><i>K</i><i>N</i><i>I</i><i>G</i><i>H</i><i>T</i><i>S</i></span>
+      <img src="assets/logo.png" alt="" width="1000" height="447">
     </div>
+    <span class="tag tag--dim">TALOS-II // SYS ONLINE<i class="blink">_</i></span>
+  </header>
 
-    <script src="main.js"></script>
+  <main class="hero">
+    <p class="kicker"><span class="kicker__bar"></span>PROTOCOL INITIATED</p>
+
+    <h1 class="title">
+      <span class="title__small">ARKNIGHTS</span>
+      <span class="title__big" data-text="ENDFIELD">ENDFIELD</span>
+    </h1>
+
+    <p class="lead">Explore Talos-II, build your industry and lead your squad in real-time 3D combat. Your journey as the Endministrator starts now.</p>
+
+    <ul class="feats">
+      <li><b>01</b>Real-time squad combat</li>
+      <li><b>02</b>Build automated factories</li>
+      <li><b>03</b>Open 3D world to explore</li>
+    </ul>
+
+    <a class="cta" id="cta" href="https://endfield.gryphline.com/" rel="noopener">
+      <span class="cta__shine"></span>
+      <svg class="cta__win" viewBox="0 0 24 24" width="30" height="30" aria-hidden="true"><path fill="currentColor" d="M2 4.3 10 3.2v7.6H2zM11 3.1 22 1.5v9.3H11zM2 12h8v7.7l-8-1.1zM11 12h11v9.4l-11-1.5z"/></svg>
+      <span class="cta__label">PLAY FREE NOW</span>
+      <span class="cta__arrow" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="26" height="26"><path d="M5 12h12M12 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="square"/></svg>
+      </span>
+    </a>
+    <p class="cta-note">Free to play &middot; Windows 10 / 11</p>
+  </main>
+
+  <aside class="panel" aria-hidden="true">
+    <h2>// CLIENT STATUS</h2>
+    <dl>
+      <dt>PLATFORM</dt><dd>WINDOWS PC</dd>
+      <dt>PRICE</dt><dd>FREE</dd>
+      <dt>REGION</dt><dd>TALOS-II</dd>
+    </dl>
+    <div class="panel__bar"><i></i></div>
+  </aside>
+
+  <div class="stripes" aria-hidden="true"></div>
+
+  <footer class="foot">
+    <span>&copy; GRYPHLINE. Arknights: Endfield and related marks belong to their owners.</span>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
